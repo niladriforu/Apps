@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="fDBsp1p5DjA5WXL8Rgaa">
+    <mxGraphModel dx="1006" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ON3jDkC6XEEt4_bOopij-2" edge="1" parent="1" source="ON3jDkC6XEEt4_bOopij-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-17" edge="1" parent="1" source="ON3jDkC6XEEt4_bOopij-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ON3jDkC6XEEt4_bOopij-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="140" />
+              <mxPoint x="170" y="50" />
+              <mxPoint x="670" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-18" connectable="0" parent="ON3jDkC6XEEt4_bOopij-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Resource name needs to be configured" vertex="1">
+          <mxGeometry relative="1" x="0.2844" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="ALB" vertex="1">
+          <mxGeometry height="80" width="80" x="60" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-4" edge="1" parent="1" source="ON3jDkC6XEEt4_bOopij-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="https Listener rule : port 443" vertex="1">
+          <mxGeometry height="80" width="80" x="240" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-7" edge="1" parent="1" source="ON3jDkC6XEEt4_bOopij-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ON3jDkC6XEEt4_bOopij-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="since it is https : it needs a certificate&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="80" x="400" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-6" parent="1" style="whiteSpace=wrap;html=1;" value="ACM" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-9" edge="1" parent="1" source="ON3jDkC6XEEt4_bOopij-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Route 53" vertex="1">
+          <mxGeometry height="80" width="80" x="180" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-12" edge="1" parent="1" source="ON3jDkC6XEEt4_bOopij-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ON3jDkC6XEEt4_bOopij-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="hosted zone" vertex="1">
+          <mxGeometry height="80" width="80" x="300" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-13" edge="1" parent="1" source="ON3jDkC6XEEt4_bOopij-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ON3jDkC6XEEt4_bOopij-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-11" parent="1" style="whiteSpace=wrap;html=1;" value="CNAME" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ON3jDkC6XEEt4_bOopij-14" parent="1" style="whiteSpace=wrap;html=1;" value="Configure CNAME as Domain Name" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
