@@ -1,0 +1,180 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page-1" id="633f8MQ5FPklatsjYj6u">
+    <mxGraphModel dx="2191" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Opensearch&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-3" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pXJqSggtwBcQaH1zfYmC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-4" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-10" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Job" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-8" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pXJqSggtwBcQaH1zfYmC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S3" vertex="1">
+          <mxGeometry height="60" width="150" x="330" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="partition by date time. &amp;nbsp;further you can split" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="update the last run ts in a file for each object type&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Next time , the job will look into this timestamp field and pick the DELTA" vertex="1">
+          <mxGeometry height="30" width="60" x="740" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="1" vertex="1">
+          <mxGeometry height="80" width="80" x="-50" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="2" vertex="1">
+          <mxGeometry height="80" width="80" x="-40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Last job run : 30th April ( todays date)" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="last job run : 18th April" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-18" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-17" parent="1" style="whiteSpace=wrap;html=1;" value="lookup the last job run from Databricks table" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-20" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-22" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pXJqSggtwBcQaH1zfYmC-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-19" parent="1" style="whiteSpace=wrap;html=1;" value="create the different folder dates and generate s3 path" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-24" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pXJqSggtwBcQaH1zfYmC-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-21" parent="1" style="whiteSpace=wrap;html=1;" value="go and get data. using recursive path" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-25" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pXJqSggtwBcQaH1zfYmC-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-23" parent="1" style="whiteSpace=wrap;html=1;" value="it validates the schema as well" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-27" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-26" parent="1" style="whiteSpace=wrap;html=1;" value="load df" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-30" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pXJqSggtwBcQaH1zfYmC-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-28" parent="1" style="whiteSpace=wrap;html=1;" value="format the data ( PK , SK , object type , etc - new columns, housekeeping columns)" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-31" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-29" parent="1" style="whiteSpace=wrap;html=1;" value="deduplicate ( based on config ) using window functions" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-33" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-32" parent="1" style="whiteSpace=wrap;html=1;" value="instantiate NSP object" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-35" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-34" parent="1" style="whiteSpace=wrap;html=1;" value="NSP writer" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-37" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-36" parent="1" style="whiteSpace=wrap;html=1;" value="format the data for NSP ( mention key and value ) .key = PK &amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-39" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-42" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-38" parent="1" style="whiteSpace=wrap;html=1;" value="push it to NSP" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-40" parent="1" style="whiteSpace=wrap;html=1;" value="update the audit table to 30th April&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="running today" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-44" edge="1" parent="1" source="pXJqSggtwBcQaH1zfYmC-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-43" parent="1" style="whiteSpace=wrap;html=1;" value="dynamodb sink" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-45" parent="1" style="whiteSpace=wrap;html=1;" value="dynamodb table" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="pXJqSggtwBcQaH1zfYmC-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="dynamo db table while creation , we set read capacity and write capacity -&amp;gt; &amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;on demand capacity -&amp;gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Vc2wNhJ3-KfK2kjOaHkE" name="Page-2">
+    <mxGraphModel dx="1006" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
